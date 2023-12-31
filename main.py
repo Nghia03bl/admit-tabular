@@ -5,7 +5,7 @@ import numpy as np
 
 st.title('USA college admission rate prediction')
 
-image = Image.open('college admission.jpg')
+image = Image.open('college admission.jpeg')
 st.image(image)
 
 input = open('lr_admit.pkl', 'rb')
