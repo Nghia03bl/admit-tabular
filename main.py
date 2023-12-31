@@ -7,7 +7,7 @@ import numpy as np
 st.title('USA College Admission Rate Prediction')
 
 # Load and display an image
-image = Image.open('college_admission.jpeg')
+image = Image.open('college admission.jpeg')
 st.image(image, caption='College Admission', use_column_width=True)
 
 # Load the pre-trained model
